@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import './Sidebar.css';
 import { Link } from 'react-router-dom';
-import { faCog, faSignOutAlt, faCalendar, faPlusSquare, faHome, faGripHorizontal, faUserPlus,faCommentDots } from '@fortawesome/free-solid-svg-icons';
+import { faCog, faSignOutAlt, faCalendar, faPlusSquare, faHome, faGripHorizontal, faUserPlus,faCommentDots, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faFileAlt } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { UserContext } from '../../../App';
@@ -70,7 +70,11 @@ const Sidebar = () => {
                 </div>}
             </ul>
             <div>
-                <Link to="/" className="text-white"><FontAwesomeIcon icon={faSignOutAlt} /> <span>Logout</span></Link>
+
+            </div>
+            <Link to="/" className="text-white"><FontAwesomeIcon icon={faUser} /> <span>{loggedInUser.userName}</span></Link>
+            <div>
+                <Link to="" className="text-white"><FontAwesomeIcon icon={faSignOutAlt} /> <span>Logout</span></Link>
             </div>
         </div>
     );

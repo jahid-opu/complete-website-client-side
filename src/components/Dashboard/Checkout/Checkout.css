@@ -1,0 +1,13 @@
+.check-out{
+    /* height: 100vh; */
+    padding:100px 0 ;
+    background-image: linear-gradient(40deg,#95a1ec ,#263787);
+
+}
+.book-form{
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 5px 5px 15px rgba(17, 14, 14, 0.877);
+
+}

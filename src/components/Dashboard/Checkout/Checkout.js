@@ -5,6 +5,7 @@ import { useForm } from 'react-hook-form';
 import { useHistory, useParams } from 'react-router-dom';
 import { UserContext } from '../../../App';
 import ProcessPayment from '../ProcessPayment/ProcessPayment';
+import './Checkout.css';
 const Checkout = () => {
     const history = useHistory();
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
@@ -38,8 +39,9 @@ const Checkout = () => {
         history.push('/dashboard')
     }
     return (
-        <div className="pt-5" style={{width:'40%',margin:'auto'}}>
-            <h2>Book Now</h2>
+        <section className="check-out">
+        <div className="pt-5 book-form" style={{width:'40%',margin:'auto'}}>
+            <h3>Book Now</h3>
             <Form>
             <input className="form-control" id="userName" value={order.userName} {...register("userName")} />
             <br />
@@ -54,6 +56,7 @@ const Checkout = () => {
         <ProcessPayment handlePayment={handlePayment}></ProcessPayment>
             
         </div>
+        </section>
     );
 };
 

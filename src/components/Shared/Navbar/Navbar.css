@@ -1,0 +1,27 @@
+.nav-bar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background:#f7f7f8;
+
+}
+.nav-bar li{
+    padding: 1px 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.nav-bar span{
+    color:#263788;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+.nav-bar li .login-btn{
+    background:#263788;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: -5px;
+}
+.nav-bar li .login-btn:hover {
+    background:#151e4b;
+}

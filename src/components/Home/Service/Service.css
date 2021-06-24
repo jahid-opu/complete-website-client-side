@@ -1,0 +1,28 @@
+.service-card{
+    padding: 10%;
+    margin: 10%;
+    box-shadow: 5px 5px 20px;
+    border-radius: 10px;
+    
+}
+.service-card:hover img {
+    /* transform: translate(5px); */
+    transform: rotate(360deg);
+    transition-duration: 1s;
+
+  
+}
+.service-card .btn {
+    background-image: linear-gradient(40deg,#2c325c ,#263787);
+}
+.service-card .btn:hover {
+    background-image: linear-gradient(60deg,#4c506d ,#263787);
+
+}
+.service-section{
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.service-section h3{
+    margin: 20px 0;
+}

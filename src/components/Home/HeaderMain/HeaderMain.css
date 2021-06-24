@@ -1,0 +1,19 @@
+.hero-banner {
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../images/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center; 
+}
+.hero-banner {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+.hero-banner h1 {
+    font-size: 4em;
+   
+}
+.hero-banner .btn {
+    background-image: linear-gradient(40deg,#95a1ec ,#263787);
+    margin-top: 20px;
+}
+

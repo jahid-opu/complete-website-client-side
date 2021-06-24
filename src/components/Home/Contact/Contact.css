@@ -1,0 +1,47 @@
+.contact-section{
+    padding: 150px 40px;
+}
+.contact-section h2{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.call-back{
+    padding: 50px 80px 100px 50px;
+    border-radius: 10px 0 0 10px;
+}
+.call-back p{
+    color:rgba(255, 249, 249, 0.685);
+    font-size: 23px;
+    font-weight: 300;
+}
+.call-back h5{
+    color:white;
+}
+.contact-section .row {
+    box-shadow: 5px 5px 20px;
+    border-radius: 10px 0 0 5px rgb(167, 162, 162);
+}
+.call-form {
+    padding:50px;
+}
+.call-form h5{
+    color:#21327E;
+}
+.call-form select {
+    width:100%;
+    border-radius: 50px;
+    padding:20px;
+    margin-bottom: 20px;
+}
+.call-form input[type="text"]{
+    padding:15px;
+    border-radius: 50px;
+    width:250px;
+}
+.call-form .btn {
+    background-image: linear-gradient(360deg,#2d3049 ,#4860c9);
+    width:100%;
+    border-radius: 50px;
+    padding:20px;
+}

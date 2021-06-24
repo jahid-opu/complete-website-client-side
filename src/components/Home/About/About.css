@@ -1,0 +1,20 @@
+.about-img img{
+    border-radius: 70px;
+}
+.about-text {
+    position:relative;
+    top: 20px;
+}
+.about-section{
+    background-color: #f7f7f8;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.about-section h2{
+    color: #21327E;
+    margin: 20px 0;
+}
+.about-section .btn {
+    background-image: linear-gradient(40deg,#95a1ec ,#263787);
+    margin-top: 20px;
+}

@@ -1,0 +1,76 @@
+
+ .testimonial{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7f8;
+    font-family: sans-serif
+}
+
+.testimonial-section {
+    max-width: 950px;
+}
+
+.testimonial-section .card {
+    border-radius: 1rem;
+    box-shadow: 0px -10px 0px #263787
+}
+
+@media(max-width:767px) {
+    .testimonial-section .card {
+        margin: 1rem 0.7rem 1rem;
+        max-width: 80vw
+    }
+}
+
+.testimonial-section img {
+    width: 6.2rem;
+    border-radius: 5rem;
+    margin: 1.3rem auto 1rem auto
+}
+
+
+.testimonial-section .card-title {
+    font-size: 1rem;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: 'IM Fell French Canon SC'
+}
+
+.testimonial-section .card-text {
+    text-align: center;
+    padding: 1rem 2rem;
+    font-size: 0.8rem;
+    color: rgb(82, 81, 81);
+    line-height: 1.4rem
+}
+
+.testimonial-section .footer {
+    border-top: none;
+    text-align: center;
+    line-height: 1.2rem;
+    padding: 2rem 0 1.4rem 0;
+    font-family: 'Varela Round';
+    color: #263787;
+    font-weight: bold
+}
+
+
+.testimonial-section #name {
+    font-size: 0.8rem;
+    font-weight: bold
+}
+
+.testimonial-section #position {
+    font-size: 0.7rem
+}
+
+.testimonial-section a {
+    color: rgb(151, 248, 6);
+    font-weight: bold
+}
+
+.testimonial-section a:hover {
+    color: rgb(151, 248, 6)
+}

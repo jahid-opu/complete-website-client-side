@@ -25,7 +25,7 @@ const Navbars = () => {
             <Nav.Link href="/"><span>Contact</span></Nav.Link>
             </li>
             <li>
-            <Nav.Link href="/dashboard"><button className="login-btn">Login</button></Nav.Link>
+            <Nav.Link href="dashboard"><button className="login-btn">Login</button></Nav.Link>
             </li>
           </Nav>
         </Navbar.Collapse>
